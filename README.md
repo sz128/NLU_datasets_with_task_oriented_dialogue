@@ -9,5 +9,5 @@ Datasets of natural language understanding and dialogue state tracking, which ca
 | DSTC 2&3 | multiple | NLU (dialogue act), DST (slot-value pairs) | http://camdial.org/~mh521/dstc/ |
 | DSTC 4 | multiple | NLU (slots), DST (slot-value pairs) | http://www.colips.org/workshop/dstc4/ |
 | Sim-R/Sim-M/Sim-gen | multiple | NLU (intent + slots + dialogue act), DST (slot-value pairs) | https://github.com/google-research-datasets/simulated-dialogue |
-| MultiWOZ | multiple | NLU (slot-value pairs) | http://dialogue.mi.eng.cam.ac.uk/index.php/corpus/ |
+| MultiWOZ | multiple | DST (slot-value pairs) | http://dialogue.mi.eng.cam.ac.uk/index.php/corpus/ |
  
