@@ -10,4 +10,6 @@ Datasets of natural language understanding and dialogue state tracking, which ca
 | DSTC 4 | multiple | NLU (slots), DST (slot-value pairs) | http://www.colips.org/workshop/dstc4/ |
 | Sim-R/Sim-M/Sim-gen | multiple | NLU (intent + slots + dialogue act), DST (slot-value pairs) | https://github.com/google-research-datasets/simulated-dialogue |
 | MultiWOZ | multiple | DST (slot-value pairs) | http://dialogue.mi.eng.cam.ac.uk/index.php/corpus/ |
+| SNIPS | single | NLU (slots) | https://github.com/snipsco/nlu-benchmark/tree/master/2017-06-custom-intent-engines |
+| TOP semanitc parsing | single | NLU (hierarchical intent + slots) | http://fb.me/semanticparsingdialog, https://arxiv.org/abs/1810.07942 |
  
