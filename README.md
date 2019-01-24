@@ -1,9 +1,24 @@
-# NLU DST datasets
+# NLU and DST datasets
 
 Datasets of natural language understanding and dialogue state tracking, which can be used in research.
+
 ### Content
+
+- ##### [Introduction](#intro)
 - ##### [Datasets in single turn](#single_turn)
 - ##### [Datasets with multiple turns](#multi_turns)
+
+## <a name="intro"></a>Introduction
+
+|  Items | description | example | 
+|:--------:|:--------:|:--------:|
+| NLU | Natural Language Understanding, which should contains text classification, sequence labelling and semantic parsing tasks. | |
+| DST | Dialogue State Tracking | |
+| intent | It an abstract meaning which always refers to a sentence or sub-sentence. | The intent of "show me a movie named Titanic" is "find_movie" |
+| slot | It is attribute or key, which should have a value. | "show me a movie named Titanic" has a slot-value pair "movie_name = Titanic" |
+| act type | a general speech action | inform, deny, confirm, request, ... |
+| dialogue act | a triple of (act_type, slot, value), http://camdial.org/~mh521/dstc/downloads/handbook.pdf | inform(movie_name = Titanic), request(price), ... |
+
 
 ## <a name="single_turn"></a>Datasets in single turn (not a dialogue)
 
