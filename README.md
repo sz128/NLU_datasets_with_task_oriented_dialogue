@@ -43,4 +43,4 @@ Datasets of natural language understanding and dialogue state tracking, which ca
 | Sim-R/Sim-M/Sim-gen | act type, slot | NLU (slot tagging), DST (slot-value pairs) | https://github.com/google-research-datasets/simulated-dialogue |
 | MultiWOZ 1.0/2.0 | multiple | DST (slot-value pairs) | http://dialogue.mi.eng.cam.ac.uk/index.php/corpus/ |
 | Frames | intent, dialogue act | NLU (intent classification, slot tagging), DST (slot-value pairs) | https://datasets.maluuba.com/Frames/dl |
-| Microsoft Dialogue Challenge | multiple | NLU (slot tagging) | https://github.com/xiul-msr/e2e_dialog_challenge |
+| Microsoft Dialogue Challenge | dialogue act | NLU (slot tagging) | https://github.com/xiul-msr/e2e_dialog_challenge |
