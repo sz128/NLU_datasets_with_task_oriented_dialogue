@@ -15,7 +15,7 @@ If you want to know more about NLU of task-oriented dialogue, please see [recomm
 |  Items | description | example | 
 |:--------:|:--------:|:--------:|
 | NLU | Natural Language Understanding, which should contains text classification, sequence labelling and semantic parsing tasks. | |
-| DST | Dialogue State Tracking | |
+| DST | Dialogue State Tracking | http://camdial.org/~mh521/dstc/downloads/handbook.pdf |
 | domain | dialogue domain | movie, music, flight, restaurant, ... |
 | intent | It an abstract meaning which always refers to a sentence or sub-sentence. | The intent of "show me a movie named Titanic" is "find_movie" |
 | slot | It is attribute or key, which should have a value. | "show me a movie named Titanic" has a slot-value pair "movie_name = Titanic" |
@@ -41,8 +41,18 @@ If you want to know more about NLU of task-oriented dialogue, please see [recomm
 |  dataset | semantic annotation | NLU/DST tasks | url |
 |:--------:|:--------:|:--------:|:--------:|
 | DSTC 2&3 | dialogue act | NLU (slot filling), DST (slot-value pairs) | http://camdial.org/~mh521/dstc/ |
-| DSTC 4 | speech action, slot | NLU (slot tagging), DST (slot-value pairs) | http://www.colips.org/workshop/dstc4/ |
+| DSTC 4 | speech action, slot | NLU (slot tagging), DST (slot-value pairs) | (challenge participants only) http://www.colips.org/workshop/dstc4/ |
 | Sim-R/Sim-M/Sim-gen | act type, slot | NLU (slot tagging), DST (slot-value pairs) | https://github.com/google-research-datasets/simulated-dialogue |
 | MultiWOZ 1.0/2.0 | multiple | DST (slot-value pairs) | http://dialogue.mi.eng.cam.ac.uk/index.php/corpus/ |
 | Frames | intent, dialogue act | NLU (intent classification, slot tagging), DST (slot-value pairs) | https://datasets.maluuba.com/Frames/dl |
 | Microsoft Dialogue Challenge | dialogue act | NLU (slot tagging) | https://github.com/xiul-msr/e2e_dialog_challenge |
+
+### <a name="atis"></a>ATIS
+ * input sentences: natural language;
+ * data size:
+   * training set: 4978 utterances;
+   * test set: 893 utterances;
+ * semantic annotation: intent (sentence class), slot (sequence labelling)
+   * intent number: 18
+   * slot number: 83
+ * Download: https://github.com/yvchen/JointSLU
