@@ -109,3 +109,59 @@ If you want to know more about NLU of task-oriented dialogue, please see [recomm
    * DSTC 2: 8 slots;
    * DSTC 3: 13 slots;
  * Download: http://camdial.org/~mh521/dstc/
+
+ ### <a name="dstc_4"></a>DSTC 4
+ * multiple turns: human-human dialogues;
+ * input sentences: natural language, transcription by human;
+ * data size: 
+   *  This data is about touristic information for Singapore collected from Skype calls.
+   *  35 dialogs sum up to 31,034 utterances and 273,580 words
+ * semantic annotation: speech action, slot, dialogue state (slot-value pairs) in sub-dialogue level
+ * Download: challenge participants only, http://www.colips.org/workshop/dstc4/
+ 
+ ### <a name="google_simulated_dialogue"></a>google Sim-R/Sim-M/Sim-gen
+ * multiple turns: conversations between an agent and a simulated user;
+ * input sentences: natural language;
+ * data size: 
+| Dataset            | Slots                                                                          | Train | Dev | Test |
+| ------------------ | ------------------------------------------------------------------------------ | ----- | --- | ---- |
+| Sim-R (Restaurant) | price\_range, location, restaurant\_name,<br>category, num\_people, date, time | 1116  | 349 | 775  |
+| Sim-M (Movie)      | theatre\_name, movie, date, time,<br>num\_people                               | 384   | 120 | 264  |
+| Sim-GEN (Movie)    | theatre\_name, movie, date, time,<br>num\_people                               | 100K  | 10K | 10K  |
+ * semantic annotation: slot
+ * Download: https://github.com/google-research-datasets/simulated-dialogue
+ 
+ ### <a name="cam_multiwoz_12"></a>cam MultiWOZ 1.0/2.0
+ * multiple turns: human-human dialogues collected in the way of WOZ (Wizard-of-Oz);
+ * input sentences: natural language;
+ * data size: There are 3,406 single-domain dialogues that include booking if the domain allows for that and 7,032 multi-domain dialogues consisting of at least 2 up to 5 domains.
+ * semantic annotation: dialogue state (slot-value pairs)
+ * Download: http://dialogue.mi.eng.cam.ac.uk/index.php/corpus/
+
+ ### <a name="maluuba_frames"></a>maluuba Frames
+ * multiple turns: human-human dialogues collected in the way of WOZ (Wizard-of-Oz);
+ * input sentences: natural language;
+ * data size: 
+   * It is about travel.
+   * 1369 dialogues, 19986 turns;
+   * http://www.aclweb.org/anthology/W17-5526
+ * semantic annotation: intent, dialogue act
+ * tasks: NLU (intent classification, slot tagging), DST (slot-value pairs)
+ * Download: https://datasets.maluuba.com/Frames/dl
+ 
+| [](#) |  |  |  |
+ ### <a name="msr_dc"></a>Microsoft Dialogue Challenge
+ * multiple turns: 
+   * human-human dialogues collected via Amazon Mechanical Turk;
+   * Built-in user simulators are provided;
+ * input sentences: natural language;
+ * data size: 
+|Task|Intents|Slots|Dialogues|
+| -----| ----- | ----- | ----- |
+|Movie-Ticket Booking|11|29|2890|
+|Restaurant Reservation|11|30|4103|
+|Taxi Ordering|11|29|3094|
+ * semantic annotation: dialogue act
+ * tasks: NLU (slot tagging)
+ * Download: https://github.com/xiul-msr/e2e_dialog_challenge
+ 
