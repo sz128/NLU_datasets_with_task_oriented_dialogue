@@ -49,6 +49,8 @@ If you want to know more about NLU of task-oriented dialogue, please see [recomm
 | [Microsoft Dialogue Challenge](#msr_dc) | dialogue act | NLU (slot tagging) | https://github.com/xiul-msr/e2e_dialog_challenge |
 
 ## <a name="details"></a>Details
+ More information about each dataset.
+ 
 ### <a name="atis"></a>ATIS
  * single turn;
  * input sentences: natural language;
