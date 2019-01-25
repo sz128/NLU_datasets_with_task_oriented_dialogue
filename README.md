@@ -15,7 +15,7 @@ If you want to know more about NLU of task-oriented dialogue, please see [recomm
 |  Items | description | example | 
 |:--------:|:--------:|:--------:|
 | NLU | Natural Language Understanding, which should contains text classification, sequence labelling and semantic parsing tasks. | |
-| DST | Dialogue State Tracking | http://camdial.org/~mh521/dstc/downloads/handbook.pdf |
+| DST | Dialogue State Tracking | [DSTC 2](http://camdial.org/~mh521/dstc/downloads/handbook.pdf) |
 | domain | dialogue domain | movie, music, flight, restaurant, ... |
 | intent | It an abstract meaning which always refers to a sentence or sub-sentence. | The intent of "show me a movie named Titanic" is "find_movie" |
 | slot | It is attribute or key, which should have a value. | "show me a movie named Titanic" has a slot-value pair "movie_name = Titanic" |
