@@ -1,6 +1,8 @@
-# NLU and DST datasets
+# NLU datasets for task-oriented dialogue
 
-Datasets of natural language understanding and dialogue state tracking, which can be used in research.
+Datasets of natural language understanding and dialogue state tracking for task-oriented dialogue, which can be used in research.
+
+If you want to know more about NLU of task-oriented dialogue, please see [recommended papers](https://github.com/sz128/Natural-language-understanding-papers).
 
 ### Content
 
