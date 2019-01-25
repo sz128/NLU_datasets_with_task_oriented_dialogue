@@ -34,7 +34,7 @@ If you want to know more about NLU of task-oriented dialogue, please see [recomm
 | [ATIS](#atis) | intent, slot | Intent classification, slot tagging | https://github.com/yvchen/JointSLU |
 | [MIT corpus](#mit_corpus) | slot | slot tagging | https://groups.csail.mit.edu/sls/downloads/ |
 | [SNIPS](#snips) | slot | slot tagging | https://github.com/snipsco/nlu-benchmark/tree/master/2017-06-custom-intent-engines |
-| [facebook TOP semanitc parsing](#top_semantic_parsing) | hierarchical intent, slot | constituency parsing  | http://fb.me/semanticparsingdialog, https://arxiv.org/abs/1810.07942 |
+| [facebook TOP semantic parsing](#top_semantic_parsing) | hierarchical intent, slot | constituency parsing  | http://fb.me/semanticparsingdialog, https://arxiv.org/abs/1810.07942 |
 
 ## <a name="multi_turns"></a>Datasets with multiple turns (dialogue with context)
 
@@ -82,7 +82,7 @@ If you want to know more about NLU of task-oriented dialogue, please see [recomm
  * semantic annotation: intent (sentence class), slot (sequence labelling)
  * Download: https://github.com/snipsco/nlu-benchmark/tree/master/2017-06-custom-intent-engines
  
- ### <a name="top_semantic_parsing"></a>TOP semanitc parsing
+ ### <a name="top_semantic_parsing"></a>TOP semantic parsing
  * single turn;
  * input sentences: natural language;
  * data size: 
