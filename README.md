@@ -31,7 +31,7 @@ If you want to know more about NLU of task-oriented dialogue, please see [recomm
 
 |  dataset | semantic annotation | tasks | url |
 |:--------:|:--------:|:--------:|:--------:|
-| ATIS | intent, slot | Intent classification, slot tagging | https://github.com/yvchen/JointSLU |
+| [ATIS](#atis) | intent, slot | Intent classification, slot tagging | https://github.com/yvchen/JointSLU |
 | MIT corpus | slot | slot tagging | https://groups.csail.mit.edu/sls/downloads/ |
 | SNIPS | slot | slot tagging | https://github.com/snipsco/nlu-benchmark/tree/master/2017-06-custom-intent-engines |
 | TOP semanitc parsing | hierarchical intent, slot | constituency parsing  | http://fb.me/semanticparsingdialog, https://arxiv.org/abs/1810.07942 |
@@ -48,6 +48,7 @@ If you want to know more about NLU of task-oriented dialogue, please see [recomm
 | Microsoft Dialogue Challenge | dialogue act | NLU (slot tagging) | https://github.com/xiul-msr/e2e_dialog_challenge |
 
 ### <a name="atis"></a>ATIS
+ * single turn;
  * input sentences: natural language;
  * data size:
    * training set: 4978 utterances;
