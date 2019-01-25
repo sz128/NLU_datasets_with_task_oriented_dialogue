@@ -123,11 +123,13 @@ If you want to know more about NLU of task-oriented dialogue, please see [recomm
  * multiple turns: conversations between an agent and a simulated user;
  * input sentences: natural language;
  * data size: 
+ 
 | Dataset            | Slots                                                                          | Train | Dev | Test |
 | ------------------ | ------------------------------------------------------------------------------ | ----- | --- | ---- |
 | Sim-R (Restaurant) | price\_range, location, restaurant\_name,<br>category, num\_people, date, time | 1116  | 349 | 775  |
 | Sim-M (Movie)      | theatre\_name, movie, date, time,<br>num\_people                               | 384   | 120 | 264  |
 | Sim-GEN (Movie)    | theatre\_name, movie, date, time,<br>num\_people                               | 100K  | 10K | 10K  |
+
  * semantic annotation: slot
  * Download: https://github.com/google-research-datasets/simulated-dialogue
  
@@ -149,18 +151,19 @@ If you want to know more about NLU of task-oriented dialogue, please see [recomm
  * tasks: NLU (intent classification, slot tagging), DST (slot-value pairs)
  * Download: https://datasets.maluuba.com/Frames/dl
  
-| [](#) |  |  |  |
  ### <a name="msr_dc"></a>Microsoft Dialogue Challenge
  * multiple turns: 
    * human-human dialogues collected via Amazon Mechanical Turk;
    * Built-in user simulators are provided;
  * input sentences: natural language;
  * data size: 
+ 
 |Task|Intents|Slots|Dialogues|
 | -----| ----- | ----- | ----- |
 |Movie-Ticket Booking|11|29|2890|
 |Restaurant Reservation|11|30|4103|
 |Taxi Ordering|11|29|3094|
+
  * semantic annotation: dialogue act
  * tasks: NLU (slot tagging)
  * Download: https://github.com/xiul-msr/e2e_dialog_challenge
