@@ -9,6 +9,7 @@ If you want to know more about NLU of task-oriented dialogue, please see [recomm
 - #### [Introduction](#intro)
 - #### [Datasets in single turn](#single_turn)
 - #### [Datasets with multiple turns](#multi_turns)
+- #### [Details](#details)
 
 ## <a name="intro"></a>Introduction
 
@@ -47,6 +48,7 @@ If you want to know more about NLU of task-oriented dialogue, please see [recomm
 | [maluuba Frames](#maluuba_frames) | intent, dialogue act | NLU (intent classification, slot tagging), DST (slot-value pairs) | https://datasets.maluuba.com/Frames/dl |
 | [Microsoft Dialogue Challenge](#msr_dc) | dialogue act | NLU (slot tagging) | https://github.com/xiul-msr/e2e_dialog_challenge |
 
+## <a name="details"></a>Details
 ### <a name="atis"></a>ATIS
  * single turn;
  * input sentences: natural language;
