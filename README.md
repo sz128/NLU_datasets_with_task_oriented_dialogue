@@ -28,7 +28,7 @@ If you want to know more about NLU of task-oriented dialogue, please see [recomm
  * **Slot Filling**: It equals to slot tagging if all values of slots can be aligned into input sentence. Otherwise, the value of slot should be predicted in a classification or generation way.
 
 
-## <a name="single_turn"></a>Datasets in single turn (not a dialogue)
+## <a name="single_turn"></a>Datasets with single turn (not a dialogue)
 
 |  dataset | semantic annotation | tasks | url |
 |:--------:|:--------:|:--------:|:--------:|
