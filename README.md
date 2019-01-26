@@ -7,7 +7,7 @@ If you want to know more about NLU of task-oriented dialogue, please see [recomm
 ## Table of Contents
 
 - #### [Introduction](#intro)
-- #### [Datasets in single turn](#single_turn)
+- #### [Datasets with single turn](#single_turn)
 - #### [Datasets with multiple turns](#multi_turns)
 - #### [Details](#details)
 
