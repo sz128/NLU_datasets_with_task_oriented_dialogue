@@ -36,7 +36,7 @@ If you want to know more about NLU of task-oriented dialogue, please see [recomm
 | [MIT corpus](#mit_corpus) | slot | slot tagging | https://groups.csail.mit.edu/sls/downloads/ |
 | [SNIPS](#snips) | slot | slot tagging | https://github.com/snipsco/nlu-benchmark/tree/master/2017-06-custom-intent-engines |
 | [facebook TOP semantic parsing](#top_semantic_parsing) | hierarchical intent, slot | constituency parsing  | http://fb.me/semanticparsingdialog, https://arxiv.org/abs/1810.07942 |
-| SMP2017-ECDT(#smp2017_ecdt) (in Chinese) | intent | Intent classification | http://ir.hit.edu.cn/SMP2017-ECDT, https://github.com/HITlilingzhi/SMP2017ECDT-DATA |
+| [SMP2017-ECDT](#smp2017_ecdt) (in Chinese) | intent | Intent classification | http://ir.hit.edu.cn/SMP2017-ECDT, https://github.com/HITlilingzhi/SMP2017ECDT-DATA |
 
 ## <a name="multi_turns"></a>Datasets with multiple turns (dialogue with context)
 
