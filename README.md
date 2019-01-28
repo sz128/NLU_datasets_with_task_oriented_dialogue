@@ -1,6 +1,6 @@
 # NLU datasets for task-oriented dialogue
 
-Datasets of natural language understanding and dialogue state tracking for task-oriented dialogue, which can be used in research.
+Datasets of natural language understanding and dialogue state tracking for task-oriented dialogue, which can be used in research. There are some other survey of datasets in respective of diaogue system, like [AtmaHou's Task-Oriented-Dialogue-Dataset-Survey](https://github.com/AtmaHou/Task-Oriented-Dialogue-Dataset-Survey). But we focus on how to build a semantic parser for spoken dialogue system.
 
 If you want to know more about NLU of task-oriented dialogue, please see [recommended papers](https://github.com/sz128/Natural-language-understanding-papers).
 
