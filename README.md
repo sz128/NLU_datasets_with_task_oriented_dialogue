@@ -4,6 +4,8 @@ Datasets of natural language understanding and dialogue state tracking for task-
 
 If you want to know more about NLU of task-oriented dialogue, please see [recommended papers](https://github.com/sz128/Natural-language-understanding-papers).
 
+There is an [implementation](https://github.com/sz128/slot_filling_and_intent_detection_of_SLU) of joint training of slot filling and intent detection for SLU, which is evaluated on ATIS and SNIPS datasets.
+
 ## Table of Contents
 
 - #### [Introduction](#intro)
