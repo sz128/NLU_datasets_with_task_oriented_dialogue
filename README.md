@@ -47,9 +47,10 @@ There is an [implementation](https://github.com/sz128/slot_filling_and_intent_de
 | [cam DSTC 2&3](#dstc_23) | dialogue act | NLU (slot filling), DST (slot-value pairs) | http://camdial.org/~mh521/dstc/ |
 | [DSTC 4](#dstc_4) | speech action, slot | NLU (slot tagging), DST (slot-value pairs) | (challenge participants only) http://www.colips.org/workshop/dstc4/ |
 | [google Sim-R/Sim-M/Sim-gen](#google_simulated_dialogue) | act type, slot | NLU (slot tagging), DST (slot-value pairs) | https://github.com/google-research-datasets/simulated-dialogue |
-| [cam MultiWOZ 1.0/2.0](#cam_multiwoz_12) | multiple | DST (slot-value pairs) | http://dialogue.mi.eng.cam.ac.uk/index.php/corpus/ |
+| [cam MultiWOZ 1.0/2.0](#cam_multiwoz_12) | multi-domains, slot-value pairs | DST (slot-value pairs) | http://dialogue.mi.eng.cam.ac.uk/index.php/corpus/ |
 | [maluuba Frames](#maluuba_frames) | intent, dialogue act | NLU (intent classification, slot tagging), DST (slot-value pairs) | https://datasets.maluuba.com/Frames/dl |
 | [Microsoft Dialogue Challenge](#msr_dc) | dialogue act | NLU (slot tagging) | https://github.com/xiul-msr/e2e_dialog_challenge |
+| [dstc8-schema-guided-dialogue](https://github.com/google-research-datasets/dstc8-schema-guided-dialogue) | multi-domains, slot-value pairs, request-slots | DST | https://github.com/google-research-datasets/dstc8-schema-guided-dialogue |
 
 ## <a name="details"></a>Details
 
