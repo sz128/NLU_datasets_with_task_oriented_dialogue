@@ -47,10 +47,13 @@ There is an [implementation](https://github.com/sz128/slot_filling_and_intent_de
 | [cam DSTC 2&3](#dstc_23) | dialogue act | NLU (slot filling), DST (slot-value pairs) | http://camdial.org/~mh521/dstc/ |
 | [DSTC 4](#dstc_4) | speech action, slot | NLU (slot tagging), DST (slot-value pairs) | (challenge participants only) http://www.colips.org/workshop/dstc4/ |
 | [google Sim-R/Sim-M/Sim-gen](#google_simulated_dialogue) | act type, slot | NLU (slot tagging), DST (slot-value pairs) | https://github.com/google-research-datasets/simulated-dialogue |
-| [cam MultiWOZ 1.0/2.0](#cam_multiwoz_12) | multi-domains, slot-value pairs | DST (slot-value pairs) | http://dialogue.mi.eng.cam.ac.uk/index.php/corpus/ |
+| [cam MultiWOZ 2.0/2.1](#cam_multiwoz_12) | multi-domains, slot-value pairs | DST (slot-value pairs) | http://dialogue.mi.eng.cam.ac.uk/index.php/corpus/ |
 | [maluuba Frames](#maluuba_frames) | intent, dialogue act | NLU (intent classification, slot tagging), DST (slot-value pairs) | https://datasets.maluuba.com/Frames/dl |
 | [Microsoft Dialogue Challenge](#msr_dc) | dialogue act | NLU (slot tagging) | https://github.com/xiul-msr/e2e_dialog_challenge |
 | [dstc8-schema-guided-dialogue](https://github.com/google-research-datasets/dstc8-schema-guided-dialogue) | multi-domains, slot-value pairs, request-slots | DST | https://github.com/google-research-datasets/dstc8-schema-guided-dialogue |
+| [MultiDoGo](https://www.aclweb.org/anthology/D19-1460.pdf) | over
+81K dialogues harvested across six domains | NLU, DST | To be published |
+| [Taskmaster-1](https://www.aclweb.org/anthology/D19-1459.pdf) | 13,215 task-based dialogs comprising six domains | NLU/DST | https://github.com/google-research-datasets/Taskmaster |
 
 ## <a name="details"></a>Details
 
@@ -154,7 +157,7 @@ More information about each dataset.
  * semantic annotation: slot
  * Download: https://github.com/google-research-datasets/simulated-dialogue
  
- ### <a name="cam_multiwoz_12"></a>cam MultiWOZ 1.0/2.0
+ ### <a name="cam_multiwoz_12"></a>cam MultiWOZ 2.0/2.1
  * multiple turns: human-human dialogues collected in the way of WOZ (Wizard-of-Oz);
  * input sentences: natural language;
  * data size: There are 3,406 single-domain dialogues that include booking if the domain allows for that and 7,032 multi-domain dialogues consisting of at least 2 up to 5 domains.
