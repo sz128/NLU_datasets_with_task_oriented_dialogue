@@ -38,8 +38,9 @@ There is an [implementation](https://github.com/sz128/slot_filling_and_intent_de
 | [MIT corpus](#mit_corpus) | slot | slot tagging | https://groups.csail.mit.edu/sls/downloads/ |
 | [SNIPS](#snips) | slot | slot tagging | https://github.com/snipsco/nlu-benchmark/tree/master/2017-06-custom-intent-engines |
 | [facebook TOP semantic parsing](#top_semantic_parsing) | hierarchical intent, slot | constituency parsing  | http://fb.me/semanticparsingdialog, https://arxiv.org/abs/1810.07942 |
-| [SMP2017-ECDT](#smp2017_ecdt) (in Chinese) | intent | Intent classification | http://ir.hit.edu.cn/SMP2017-ECDT, https://github.com/HITlilingzhi/SMP2017ECDT-DATA |
 | [Facebook Multilingual Task Oriented Dataset](https://arxiv.org/pdf/1810.13327.pdf) | intent,slot | Intent classification, slot tagging | https://download.pytorch.org/data/multilingual_task_oriented_dialog_slotfilling.zip |
+| [SMP2017-ECDT](#smp2017_ecdt) (in Chinese) | intent | Intent classification | http://ir.hit.edu.cn/SMP2017-ECDT, https://github.com/HITlilingzhi/SMP2017ECDT-DATA |
+| [E-commerce Shopping Assistant (ECSA)](https://github.com/pangolulu/DCMTL) (in Chinese) | slot | slot tagging | https://github.com/pangolulu/DCMTL |
 
 ## <a name="multi_turns"></a>Datasets with multiple turns (dialogue with context)
 
