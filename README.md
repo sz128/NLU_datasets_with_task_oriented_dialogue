@@ -39,6 +39,7 @@ There is an [implementation](https://github.com/sz128/slot_filling_and_intent_de
 | [SNIPS](#snips) | Playlist, Restaurant, Weather, Music, RateBook, etc. | intent, slot | Intent classification, slot tagging | https://github.com/snipsco/nlu-benchmark/tree/master/2017-06-custom-intent-engines |
 | [facebook TOP semantic parsing](#top_semantic_parsing) | navigation and event | hierarchical intent, slot | constituency parsing  | http://fb.me/semanticparsingdialog, https://arxiv.org/abs/1810.07942 |
 | [Facebook Multilingual Task Oriented Dataset](https://arxiv.org/pdf/1810.13327.pdf) | ALARM, REMINDER, and WEATHER | intent,slot | Intent classification, slot tagging | https://download.pytorch.org/data/multilingual_task_oriented_dialog_slotfilling.zip |
+| [snips_slu_data_v1.0](https://github.com/snipsco/spoken-language-understanding-research-datasets) | SmartLights, SmartSpeaker | intent,slot | Intent classification, slot tagging  | https://github.com/snipsco/spoken-language-understanding-research-datasets |
 | [SMP2017-ECDT](#smp2017_ecdt) (in Chinese) | flight, hotel, Chit-chat | intent | Intent classification | http://ir.hit.edu.cn/SMP2017-ECDT, https://github.com/HITlilingzhi/SMP2017ECDT-DATA |
 | [E-commerce Shopping Assistant (ECSA)](https://github.com/pangolulu/DCMTL) (in Chinese) | E-commerce Shopping | slot | slot tagging | https://github.com/pangolulu/DCMTL |
 
