@@ -56,6 +56,7 @@ There is an [implementation](https://github.com/sz128/slot_filling_and_intent_de
 | [dstc8-schema-guided-dialogue](https://github.com/google-research-datasets/dstc8-schema-guided-dialogue) | 17 | Yes | multi-domains, slot-value pairs, request-slots | DST | https://github.com/google-research-datasets/dstc8-schema-guided-dialogue |
 | [MultiDoGo](https://www.aclweb.org/anthology/D19-1460.pdf) | 6 | Yes | over 81K dialogues harvested across six domains | NLU, DST | To be published |
 | [Taskmaster-1](https://www.aclweb.org/anthology/D19-1459.pdf) | 6 | No | 13,215 task-based dialogs comprising six domains | NLU/DST | https://github.com/google-research-datasets/Taskmaster |
+| [CrossWOZ](https://arxiv.org/pdf/2002.11893.pdf)(In Chinese) | 5 | Yes | 5,012 task-based dialogs comprising five domains | NLU/DST | https://github.com/google-research-datasets/Taskmaster |
 
 ## <a name="details"></a>Details
 
