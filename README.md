@@ -42,6 +42,7 @@ There is an [implementation](https://github.com/sz128/slot_filling_and_intent_de
 | [snips_slu_data_v1.0](https://github.com/snipsco/spoken-language-understanding-research-datasets) | SmartLights, SmartSpeaker | intent,slot | Intent classification, slot tagging  | https://github.com/snipsco/spoken-language-understanding-research-datasets |
 | [SMP2017-ECDT](#smp2017_ecdt) (in Chinese) | flight, hotel, Chit-chat | intent | Intent classification | http://ir.hit.edu.cn/SMP2017-ECDT, https://github.com/HITlilingzhi/SMP2017ECDT-DATA |
 | [E-commerce Shopping Assistant (ECSA)](https://github.com/pangolulu/DCMTL) (in Chinese) | E-commerce Shopping | slot | slot tagging | https://github.com/pangolulu/DCMTL |
+| [Clinc Intent Detection](https://www.aclweb.org/anthology/attachments/D19-1131) | Banking, Work, Meta, Auto, Travel, Home, Utility, Kitchen, Small Talk, Credit Cards | intent | Intent classification and out-of-scope detection | https://www.aclweb.org/anthology/attachments/D19-1131.Attachment.zip |
 
 ## <a name="multi_turns"></a>Datasets with multiple turns (dialogue with context)
 
