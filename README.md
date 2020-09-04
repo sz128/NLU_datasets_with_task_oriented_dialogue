@@ -55,7 +55,7 @@ There is an [implementation](https://github.com/sz128/slot_filling_and_intent_de
 | [maluuba Frames](#maluuba_frames) | 1 | No | intent, dialogue act | NLU (intent classification, slot tagging), DST (slot-value pairs) | https://datasets.maluuba.com/Frames/dl |
 | [Microsoft Dialogue Challenge](#msr_dc) | 3 | No | dialogue act | NLU (slot tagging) | https://github.com/xiul-msr/e2e_dialog_challenge |
 | [dstc8-schema-guided-dialogue](https://github.com/google-research-datasets/dstc8-schema-guided-dialogue) | 17 | Yes | multi-domains, slot-value pairs, request-slots | DST | https://github.com/google-research-datasets/dstc8-schema-guided-dialogue |
-| [MultiDoGo](https://www.aclweb.org/anthology/D19-1460.pdf) | 6 | Yes | over 81K dialogues harvested across six domains | NLU, DST | To be published |
+| [MultiDoGo](https://www.aclweb.org/anthology/D19-1460.pdf) | 6 | Yes | over 81K dialogues harvested across six domains | NLU, DST | https://github.com/awslabs/multi-domain-goal-oriented-dialogues-dataset |
 | [Taskmaster-1/2](https://www.aclweb.org/anthology/D19-1459.pdf) | 6+7 | No | 13,215 + 17,289 task-based dialogs comprising multiple domains | NLU/DST | https://github.com/google-research-datasets/Taskmaster |
 | [CrossWOZ](https://arxiv.org/pdf/2002.11893.pdf)(In Chinese) | 5 | Yes | 5,012 task-based dialogs comprising five domains | NLU/DST | https://github.com/google-research-datasets/Taskmaster |
 
