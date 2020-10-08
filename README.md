@@ -18,12 +18,12 @@ There is an [implementation](https://github.com/sz128/slot_filling_and_intent_de
 |  Items | description | example | 
 |:--------:|:--------:|:--------:|
 | NLU | Natural Language Understanding, which should contains text classification, sequence labelling and semantic parsing tasks. | |
-| DST | Dialogue State Tracking | [DSTC 2](http://camdial.org/~mh521/dstc/downloads/handbook.pdf) |
+| DST | Dialogue State Tracking | [DSTC 2](https://github.com/matthen/dstc/blob/master/handbook.pdf) |
 | domain | dialogue domain | movie, music, flight, restaurant, ... |
 | intent | It an abstract meaning which always refers to a sentence or sub-sentence. | The intent of "*show me a movie named Titanic*" is "*find_movie*" |
 | slot | It is attribute or key, which should have a value. | "*show me a movie named Titanic*" has a slot-value pair "*movie_name = Titanic*" |
 | act type | a general speech action | *inform, deny, confirm, request, hello, bye,* ... |
-| dialogue act | act_type(slot=value,...), http://camdial.org/~mh521/dstc/downloads/handbook.pdf | *inform(movie_name = Titanic), request(price),* ... |
+| dialogue act | act_type(slot=value,...), https://github.com/matthen/dstc/blob/master/handbook.pdf | *inform(movie_name = Titanic), request(price),* ... |
 
  * **Intent Detection or intent classification**: sentence classification task
  * **Slot Tagging**: sequence labelling task
@@ -48,7 +48,7 @@ There is an [implementation](https://github.com/sz128/slot_filling_and_intent_de
 
 |  dataset | #domains | cross_domains | semantic annotation | NLU/DST tasks | url |
 |:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
-| [cam DSTC 2&3](#dstc_23) | 2 | No | dialogue act | NLU (slot filling), DST (slot-value pairs) | http://camdial.org/~mh521/dstc/ |
+| [cam DSTC 2&3](#dstc_23) | 2 | No | dialogue act | NLU (slot filling), DST (slot-value pairs) | https://github.com/matthen/dstc |
 | [DSTC 4](#dstc_4) | ~5 | Yes | speech action, slot | NLU (slot tagging), DST (slot-value pairs) | (challenge participants only) http://www.colips.org/workshop/dstc4/ |
 | [google Sim-R/Sim-M/Sim-gen](#google_simulated_dialogue) | 3 | No | act type, slot | NLU (slot tagging), DST (slot-value pairs) | https://github.com/google-research-datasets/simulated-dialogue |
 | [cam MultiWOZ 2.0/2.1](#cam_multiwoz_12) | 5 | yes | multi-domains, slot-value pairs | DST (slot-value pairs) | http://dialogue.mi.eng.cam.ac.uk/index.php/corpus/ |
@@ -136,7 +136,7 @@ More information about each dataset.
  * semantic annotation: dialogue act
    * DSTC 2: 8 slots;
    * DSTC 3: 13 slots;
- * Download: http://camdial.org/~mh521/dstc/
+ * Download: https://github.com/matthen/dstc
 
  ### <a name="dstc_4"></a>DSTC 4
  * multiple turns: human-human dialogues;
