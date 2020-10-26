@@ -43,6 +43,7 @@ There is an [implementation](https://github.com/sz128/slot_filling_and_intent_de
 | [SMP2017-ECDT](#smp2017_ecdt) (in Chinese) | flight, hotel, Chit-chat | intent | Intent classification | http://ir.hit.edu.cn/SMP2017-ECDT, https://github.com/HITlilingzhi/SMP2017ECDT-DATA |
 | [E-commerce Shopping Assistant (ECSA)](https://github.com/pangolulu/DCMTL) (in Chinese) | E-commerce Shopping | slot | slot tagging | https://github.com/pangolulu/DCMTL |
 | [Clinc Intent Detection](https://www.aclweb.org/anthology/attachments/D19-1131) | Banking, Work, Meta, Auto, Travel, Home, Utility, Kitchen, Small Talk, Credit Cards | intent | Intent classification and out-of-scope detection | https://www.aclweb.org/anthology/attachments/D19-1131.Attachment.zip |
+| [FewJoint](https://arxiv.org/abs/2009.08138) (in Chinese) | Many domains for few-shot learning | intent, slot | Intent classification, slot tagging | [Dataset](https://atmahou.github.io/attachments/FewJoint.zip); [Baseline](https://github.com/AtmaHou/MetaDialog) |
 
 ## <a name="multi_turns"></a>Datasets with multiple turns (dialogue with context)
 
